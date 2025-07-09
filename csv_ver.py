@@ -128,5 +128,4 @@ elif st.session_state.step == 3:
             comment
         )
         st.success("✅ Form basariyla kaydedildi.")
-        st.balloons()
         st.session_state.step = 1
